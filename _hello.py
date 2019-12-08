@@ -1,18 +1,18 @@
-import math
-import sys
+# import math
+# import sys
 
-from os import rename
+# from os import rename
 
 # third party package was sorted separately.
 import requests
 
-# # print(sys.version)
-print(sys.executable)
+# # # print(sys.version)
+# print(sys.executable)
 
 
-def greet(who_to_greet):
-    greeting = "Hello, {}".format(who_to_greet)
-    return greeting
+# def greet(who_to_greet):
+#     greeting = "Hello, {}".format(who_to_greet)
+#     return greeting
 
 
 r = requests.get("https://coreyms.com")
