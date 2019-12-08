@@ -1,0 +1,4 @@
+# tells git to ignore the virtual environment set up.
+venv
+# tells git to ignore the personal user settings.
+.vscode
